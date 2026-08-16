@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#effaf1"/><stop offset="1" stop-color="#cfead5"/>
+  </linearGradient>
+  <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#4caf63"/><stop offset="1" stop-color="#166534"/>
+  </linearGradient>
+</defs>
+<rect width="1200" height="800" rx="48" fill="url(#bg)"/>
+<ellipse cx="600" cy="690" rx="350" ry="38" fill="#a8cfaf" opacity=".45"/>
+<path d="M590 680 C575 540 580 410 610 280" stroke="#166534" stroke-width="20" fill="none" stroke-linecap="round"/>
+<path d="M610 470 C410 420 300 280 350 150 C500 120 625 230 610 470Z" fill="url(#leaf)"/>
+<path d="M610 500 C790 460 930 330 870 210 C720 190 605 300 610 500Z" fill="#2f8b4c"/>
+<circle cx="470" cy="300" r="22" fill="#9b6b32" opacity=".7"/>
+<circle cx="520" cy="350" r="15" fill="#9b6b32" opacity=".65"/>
+<circle cx="735" cy="335" r="19" fill="#9b6b32" opacity=".65"/>
+<circle cx="790" cy="290" r="13" fill="#9b6b32" opacity=".55"/>
+<text x="600" y="90" text-anchor="middle" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#123d23">KisanLens Demo Leaf</text>
+</svg>
